@@ -284,7 +284,7 @@
 
     .ti svg {
       width: auto;
-      height: 72px;
+      height: auto;
     }
 
     .blbl {
@@ -647,6 +647,8 @@
       position: relative;
       z-index: 2;
       display: block;
+      width: 220px;
+      height: 72px;
     }
 
     /* ═══════════════════════════════════════════════
@@ -2465,6 +2467,17 @@
         display: flex;
         flex-direction: column;
       }
+
+      .countdown-card {
+        padding: 14px 20px;
+        border-radius: 12px;
+        align-self: flex-start;
+      }
+
+      .countdown-card svg {
+        width: 176px;
+        height: 58px;
+      }
     }
 
     @media (max-width: 768px) {
@@ -2633,6 +2646,18 @@
         width: 100%;
       }
 
+      .countdown-card {
+        padding: 12px 16px;
+        border-radius: 10px;
+        align-self: flex-start;
+        width: auto;
+      }
+
+      .countdown-card svg {
+        width: 148px;
+        height: 48px;
+      }
+
       .metrics {
         grid-template-columns: 1fr;
       }
@@ -2715,6 +2740,16 @@
 
       .cta-img {
         max-width: 100%;
+      }
+
+      .countdown-card {
+        padding: 10px 14px;
+        border-radius: 8px;
+      }
+
+      .countdown-card svg {
+        width: 126px;
+        height: 41px;
       }
 
       .c {
@@ -3076,7 +3111,7 @@
   <section class="section">
     <div class="c header-responsive align-top">
       <div class="ti countdown-card" id="timer-00-00">
-        <svg width="220" height="72" viewBox="0 0 220 72">
+        <svg viewBox="0 0 220 72" preserveAspectRatio="xMidYMid meet">
           <!-- DIGIT 1: 0 — segments: top, top-right, bot-right, bottom, bot-left, top-left -->
           <g class="d1">
             <polygon class="seg-on" points="16,3  44,3  40,8  20,8" />
@@ -3176,7 +3211,7 @@
 
   <section class="section">
     <div class="c header-responsive align-top">
-      <div class="ti countdown-card" id="timer-01-00"><svg width="220" height="72" viewBox="0 0 220 72">
+      <div class="ti countdown-card" id="timer-01-00"><svg viewBox="0 0 220 72" preserveAspectRatio="xMidYMid meet">
           <!-- 0 -->
           <g class="d1">
             <polygon class="seg-on" points="16,3  44,3  40,8  20,8" />
@@ -3365,7 +3400,7 @@
     <div class="c d-flex flex-column align-top">
       <div class="sh mg-bottom-0 d-flex align-top header-responsive">
         <div class="ti countdown-card" id="timer-02-00">
-          <svg width="220" height="72" viewBox="0 0 220 72">
+          <svg viewBox="0 0 220 72" preserveAspectRatio="xMidYMid meet">
             <!-- 0 -->
             <g class="d1">
               <polygon class="seg-on" points="16,3  44,3  40,8  20,8" />
@@ -3642,7 +3677,7 @@
 
   <section class="section">
     <div class="c header-responsive align-top">
-      <div class="timer-inline countdown-card" id="timer-03-00"><svg width="220" height="72" viewBox="0 0 220 72">
+      <div class="timer-inline countdown-card" id="timer-03-00"><svg viewBox="0 0 220 72" preserveAspectRatio="xMidYMid meet">
           <!-- 0 -->
           <g class="d1">
             <polygon class="seg-on" points="16,3  44,3  40,8  20,8" />
@@ -3737,7 +3772,7 @@
   <section class="section">
     <div class="c header-responsive align-top">
       <div class="ti countdown-card" id="timer-04-00">
-        <svg width="220" height="72" viewBox="0 0 220 72">
+        <svg viewBox="0 0 220 72" preserveAspectRatio="xMidYMid meet">
           <!-- 0 -->
           <g class="d1">
             <polygon class="seg-on" points="16,3  44,3  40,8  20,8" />
